@@ -26,24 +26,38 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    max-width: 350px;
 }
 
 .subtext1{
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 350px;
 }
 
 .headerheader{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around
 }
 
 .subheader{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    gap: 150px;
 }
 
 .Signup1{
     color: white;
     background-color: #3882F6;
+}
+
+.placeholder{
+    background-color: lightslategray;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
