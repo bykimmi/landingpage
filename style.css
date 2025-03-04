@@ -1,10 +1,36 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
-    background-color: aqua;
+    background-color: #1F2937;
+    color: #eee;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.maintitle1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext1{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .headerheader{
@@ -12,3 +38,12 @@ body{
     justify-content: space-between;
 }
 
+.subheader{
+    display: flex;
+    justify-content: center;
+}
+
+.Signup1{
+    color: white;
+    background-color: #3882F6;
+}
