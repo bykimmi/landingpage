@@ -85,16 +85,19 @@ a {
 }
 
 .items{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
+display: flex;
+justify-content: center;
+}
+
+.first, .second, .third, .fourth{
+
 }
 
 .image1, .image2, .image3, .image4 {
     border: 3px solid #3882F6;
     border-radius: 16px;
-    min-height: 150px;
-    min-width: 150px;
+    height: 150px;
+    width: 150px;
 }
 
 .subtext {
