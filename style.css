@@ -38,13 +38,6 @@ a {
     /* max-width: 350px; */
 }
 
-.subtext {
-    font-size: 18px;
-    color: #E5E7EB;
-    width: 450px;
-    margin-bottom: 12px;
-}
-
 .hero {
     display: flex;
     justify-content: space-around;
@@ -63,7 +56,14 @@ a {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
-    border-color: #3882F6;
+    border: solid #3882F6;
+}
+.ctabutton{
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: solid white;
 }
 
 .placeholder {
@@ -73,4 +73,31 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.titleinfo{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.image1, .image2, .image3, .image4 {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #F9FAF8;
 }
