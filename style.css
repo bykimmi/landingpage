@@ -6,12 +6,17 @@ body{
     padding: 0;
 }
 
-.header{
+.top{
     background-color: #1F2937;
     color: #eee;
 }
 
-.headerlogo{
+.header {
+    display: flex;
+    justify-content: space-around
+}
+
+.logo {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -22,25 +27,20 @@ a{
     color: #E5E7EB;
 }
 
-.maintitle1{
+h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     max-width: 350px;
 }
 
-.subtext1{
+p.subtext {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 350px;
 }
 
-.headerheader{
-    display: flex;
-    justify-content: space-around
-}
-
-.subheader{
+.hero{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -48,7 +48,7 @@ a{
     gap: 150px;
 }
 
-.Signup1{
+.signup.hero {
     color: white;
     background-color: #3882F6;
 }
