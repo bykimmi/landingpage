@@ -90,6 +90,7 @@ justify-content: center;
 }
 
 .first, .second, .third, .fourth{
+    max-width: 200px;
 
 }
 
@@ -100,7 +101,26 @@ justify-content: center;
     width: 150px;
 }
 
-.subtext {
+.hero.subtext {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+.items.subtext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
